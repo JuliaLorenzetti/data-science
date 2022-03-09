@@ -1,0 +1,52 @@
+# most efficient way to save part of a text file in a new file?
+url = 'https://...' # exactly the same as a file name
+df = pd.read_csv(url, header=)
+df.write()
+f = open('test.txt', 'r')
+l = '''
+some text
+some text
+'''
+f.write(l)
+f.close()
+# check if the file is there with linux command
+! 1s-1
+fin = open('test.txt', 'r')
+lines = fin.readlines()
+lines
+fout = open('outtest.txt', 'w')
+# write the first 3 lines in a different file
+fout.writelines(lines[0:3])
+fout.close()
+! cat outtest.txt
+
+import numpy as np
+import matplotlib.pyplot as plt
+# changing the size of plots
+plt.figure(figsize=[5,5], dpi=20)
+x = np.linspace(-1,1,20)
+y = np.random.normal(0,1,20)
+plt.plot(x,y)
+plt.show()
+
+# gaps in data set (missing number, not availaible NA)
+# gives boolean dataframes as output: for each value is 0 (TRUE) or not (FALSE)
+newdf = df.isnull()
+newdf = df.isnum()
+
+# is there a disadvantage of using lambda over def?
+def square(x):
+  return x^2
+ square(4)
+# writing a function with lambda lets you write it in one line
+# however, the function does not have a name so it cannot be used later on
+square = lambda x : x^2
+square(4)
+
+L = [5,10,12,15]
+n = 10
+for factor in L:
+  if n%factor == 0:
+    break
+  else:
+    print(n%factor)
