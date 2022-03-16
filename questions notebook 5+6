@@ -1,0 +1,12 @@
+# difference btw numpy array and panda dataframe
+# df is richer version of array. numpy for math, panda for data manipulation
+
+# retrieve indices of objects that fulfil boolean expression
+import numpy as np
+a = np.array([-1,2,3,5])
+abol = (a<0)
+np.all(abol)
+np.where(abol)
+
+# advantage of list over array: can contain any object (text, number..) array only one. list is however slower
+
