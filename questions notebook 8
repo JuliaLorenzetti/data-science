@@ -1,1 +1,12 @@
+# remove characters in a string from the middle
+s = 'jidoasnvj fjkdlsi'
+s1 = s.replace('j', '')
+s1
 
+# when to use str methods or regular expressions
+regex can do a lot more but are more complicated. str methods are simple but less versatile
+
+# reversing part of a DNA sequence
+s = 'ATG CGC TAC'
+srev = s.replace(s.split()[2],s.split()[2][::-1]) # index for reverse 
+srev
