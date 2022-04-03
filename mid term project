@@ -21,7 +21,11 @@ The obtained pdb file describing the protein was retrieved from the protein data
 To process the protein data given in the pdb file, a tutorial using GROMACS is followed.
 (Tutorial 1: Lysozyme in water, http://www.mdtutorials.com/gmx/lysozyme/index.html)
 
-The teaching server at the Reymond lab called Chemzilla can be accessed with the following credentials
+The teaching server at the Reymond lab called Chemzilla can be accessed with the following credentials:
+IP address: 130.92.106.218 using the remote desktop client of Windows.
+Username: group1
+PW: grp1a5
+
 The server will be used to run the tutorial, except for the production runs (production MD).
 
 For the production runs, the high performance computing (HPC) cluster of the university called Ubelix will be used (https://ubelix.unibe.ch/)
