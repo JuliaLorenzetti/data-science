@@ -1,0 +1,29 @@
+documentation mid term project
+setup
+
+downloading PuTTY here: https://www.putty.org/
+This is a tool to work remotely on a linux system by providing a so-called secure shell (ssh), which allows ecrypted connection to the remote (linux) computer.
+PSFTP is used to transfer files (SFTP: secure file transfer protocol)
+
+Here is the link to a useful cheatsheet for linux command lines: https://cheatography.com/davechild/cheat-sheets/linux-command-line/
+
+downloading FileZilla here: https://filezilla-project.org/ (I downloaded the FileZilla Client)
+FileZilla is a software used for copying files remotely via a FTP
+
+A remote desktop protocol (RDP) is integrated into every windows system (Remotedesktopverbindung) and is used to connect to the linux machine of the chemzilla teaching server at the university.
+
+For the project, molecular dynamics (MD) will be used to analyze a given protein. 
+The software to do this is GROMACS https://manual.gromacs.org/documentation/current/index.html
+The algorithm used for MD is explained here: https://manual.gromacs.org/documentation/current/reference-manual/algorithms/molecular-dynamics.html
+
+The obtained pdb file describing the protein was retrieved from the protein data bank here: https://www.rcsb.org/
+
+To process the protein data given in the pdb file, a tutorial using GROMACS is followed.
+(Tutorial 1: Lysozyme in water, http://www.mdtutorials.com/gmx/lysozyme/index.html)
+
+The teaching server at the Reymond lab called Chemzilla can be accessed with the following credentials
+The server will be used to run the tutorial, except for the production runs (production MD).
+
+For the production runs, the high performance computing (HPC) cluster of the university called Ubelix will be used (https://ubelix.unibe.ch/)
+The tutorial on how to access Ubelix is found here: https://hpc-unibe-ch.github.io/
+The student campus account needs to be activated first to gain access to Ubelix. 
